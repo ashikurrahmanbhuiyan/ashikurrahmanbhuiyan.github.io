@@ -1,3 +1,3 @@
 FROM node:alpine
-copy . /app
+COPY . /app
 CMD ["node", "/app/index.js"]
