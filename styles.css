@@ -36,7 +36,7 @@ body {
 .top-section {
     background: var(--primary-bg);
     position: relative;
-    padding-bottom: 120px;
+    padding-bottom: 5px;
 }
 
 /* decorative teal corner patch */
@@ -321,15 +321,15 @@ nav {
     display: inline-block;
 }
 
-.hero-content h1 {
+.hero-content h3 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(2.4rem, 4vw, 3.4rem);
+    font-size: clamp(1.4rem, 2vw, 1.4rem);
     line-height: 1.18;
     color: var(--text-dark);
     margin-bottom: 10px;
 }
 
-.hero-content h1 em {
+.hero-content h3 em {
     font-style: italic;
     color: var(--accent-dark);
     position: relative;
